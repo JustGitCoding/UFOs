@@ -21,6 +21,7 @@ function buildTable(data) {
     });
 }
 
+//   ###### RETIRE handleClick Function and use Dynamic filters instead
 // function to rebuild a filtered table if a date is entered as a filter criteria
 function handleClick() {
     // grab the datetime value from the filter
@@ -37,6 +38,7 @@ function handleClick() {
 
 // use D3 to 'listen' for an event (in this case, the 'click' of our filtering button)
 d3.selectAll("#filter-btn").on("click", handleClick);
+
 
 // At the bare minimum - show the base table before users have an oppty to input any filter criteria
 buildTable(tableData);
