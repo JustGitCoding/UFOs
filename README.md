@@ -6,15 +6,15 @@ Use JavaScript, HTML and CSS to create a webpage with a dynamic table that can b
 
 # Functionality:
 When users arrive to the webpage, the first thing they'll see is a high-resolution image taken from space, accompanied by an article regarding the existence of UFOs. 
-![demo_img](demo.png)
+![demo_img](Resources/demo.png)
 
 Following this, our webpage pulls from our JavaScript data file and compiles a table with all known UFO sightings including the date of the sighting, the city, state, and country of sighting, the shape of the object, duration of sighting, and any comments made by the observer. To the left of this table, we have also included a number of (labeled) input boxes so that users can filter the table for specific dates, locations, and object shapes. 
 
-![filters_empty](filters_empty.png)
+![filters_empty](Resources/filters_empty.png)
 
 As users input their filtering criteria, the table will dynamically update after each input, and display only the information relevant to the user's search criteria.
 
-![filtered](filtered.png)
+![filtered](Resources/filtered.png)
 
 
 ### Closing Thoughts:
